@@ -6,11 +6,9 @@
  * @repo https://github.com/stoneWeb/elm-react-native
  */
 
-import React, { Component } from 'react';
-import {
-  AppRegistry,
-} from 'react-native';
+import React, { Component } from 'react'
+import { AppRegistry } from 'react-native'
 
-import rootApp from './app/root';
+import rootApp from './app/root'
 
-AppRegistry.registerComponent('Elm', () => rootApp);
+AppRegistry.registerComponent('Elm', () => rootApp)
